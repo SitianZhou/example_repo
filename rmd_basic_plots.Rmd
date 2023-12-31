@@ -2,12 +2,14 @@
 title: "Basic Plots"
 author: "Jeff Goldsmith"
 date: 2019-09-10
-output: github_document
+output: html_document
 ---
 
 ```{r setup, include = FALSE}
 library(tidyverse)
 ```
+
+this [link](https://www.kaggle.com/datasets/juanumusic/countries-iso-codes) is to the dataset
 
 The purpose of this file is to present a couple of basic plots using `ggplot`.
 
@@ -33,3 +35,5 @@ Next we show a scatterplot of `y` vs `x`.
 ```{r yx_scatter}
 ggplot(plot_df, aes(x = x, y = y)) + geom_point()
 ```
+
+updated 12/31
